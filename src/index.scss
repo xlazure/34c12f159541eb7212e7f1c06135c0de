@@ -36,8 +36,16 @@ html * {
 
 .cardText-icons {
   display: flex;
+  align-items: center;
   gap:.4em;
-  & > div svg {
+  & > div {
+    &:not(&:first-child) {
+      svg {
+        padding: .25em;
+      }
+    }
+  }
+  & > div > svg {
     width: 64px;
     height: 64px;
   }
