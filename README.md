@@ -2,6 +2,7 @@
 
 ## For the assigned task, 1-1.5 hours is enough time to make a simple appearance + implement the logic for retrieving data from the public API. Taking advantage of the fact that it was a weekend, I allocated more time to break down as many components as possible into smaller parts and create a small file structure so that the project could be easily read and be extendable and reusable
 
+## [LINK TO DEMO](https://34c12f159541eb7212e7f1c06135c0de.netlify.app/)
 <br/>
 <br/>
 
