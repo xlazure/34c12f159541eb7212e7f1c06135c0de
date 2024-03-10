@@ -1,5 +1,5 @@
 import { useDebounce } from "../../hooks/useDebounce";
-import { Loader } from "../loader/loader";
+import { Loader } from "../animations/loader/loader";
 import { Button } from "../ui/button/button";
 
 const API_URL: string = "https://jellybellywikiapi.onrender.com/api/Beans/";
