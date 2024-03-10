@@ -1,0 +1,43 @@
+.loader {
+  display: flex;
+  gap: 0.65em;
+
+  & span {
+    height: 20px;
+    width: .2rem;
+    animation: scale 1000ms ease-in-out infinite;
+
+    &:nth-child(1) {
+      background-color: rgb(244, 244, 244);
+      animation-delay: -.2s;
+    }
+    &:nth-child(2) {
+      background-color: rgb(255, 153, 0);
+      animation-delay: -.4s;
+    }
+    &:nth-child(3) {
+      background-color: rgb(255, 255, 255);
+      animation-delay: -.6s;
+    }
+    &:nth-child(4) {
+      background-color: rgb(255, 255, 255);
+      animation-delay: -.8s;
+    }
+    &:nth-child(5) {
+      background-color: rgb(255, 255, 255);
+      animation-delay: -1s;
+    }
+  }
+
+}
+
+@keyframes scale {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.2);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}

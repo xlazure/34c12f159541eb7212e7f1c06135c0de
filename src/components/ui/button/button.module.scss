@@ -1,12 +1,19 @@
 .button {
     background-color: rgb(46, 150, 247);
+    border: 1px solid transparent;
+    transition: transform 200ms ease-in-out;
     color: #fff;
+    box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.398);
     
     padding: .75em 2em;
     border-radius: calc(var(--radius) - 2px);
-    font-size: 1em;
+    font-size: 1.25em;
 
     &:hover {
         cursor: pointer;
+        transform: scale(1.1,1.1);
+    }
+    &:active {
+        background-color: rgb(38, 136, 227);
     }
 }

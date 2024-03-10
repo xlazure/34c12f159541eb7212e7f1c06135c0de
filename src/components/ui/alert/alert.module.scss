@@ -1,0 +1,56 @@
+.alertPosition {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+
+.alert {
+  margin-bottom: 0.55em;
+  position: relative;
+  padding: .5em 2em .5em .5em;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: calc(var(--radius) - 2px);
+
+  animation: fadeIn 500ms linear;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+  & svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  &__closeButton {
+    transition: transform 150ms ease-out;
+    right: 0.25em;
+    top: 0.25em;
+    background: transparent;
+    display: inline-flex;
+
+    &:hover {
+      stroke-linecap: square;
+      cursor: pointer;
+    }
+
+    & svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    position: absolute;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
