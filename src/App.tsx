@@ -1,4 +1,3 @@
-import { Button } from "./components/ui/button/button";
 import GlutenFreeIcon from "./components/icons/GlutenFreeIcon";
 import KosherFoodIcon from "./components/icons/KosherFoodIcon";
 import SeasonalIcon from "./components/icons/seasonalIcon";
@@ -17,8 +16,6 @@ import {
 import { useFetchData } from "./hooks/useFetchData";
 import FetchButton from "./components/fetchButton/fetchButton";
 import { ErrorAlertHandler } from "./components/errorHandler/errorHandler";
-
-const API_URL: string = "https://jellybellywikiapi.onrender.com/api/Beans/";
 
 type FetchDataResult = {
   backgroundColor: string;
