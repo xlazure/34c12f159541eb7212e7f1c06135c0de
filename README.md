@@ -9,7 +9,7 @@
 ## NODE Version: 20.11.1 LTS
 ### Clone repo
 ```
-git pull [repo url HTTPS]
+git clone https://github.com/xlazure/34c12f159541eb7212e7f1c06135c0de.git
 ```
 
 ### After cloning the repository
